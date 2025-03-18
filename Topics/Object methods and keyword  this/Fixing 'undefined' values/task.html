@@ -1,0 +1,11 @@
+<div class="step-text">
+<p>The following code is intended to print the specifications of a <code class="language-javascript">laptop</code> object:</p><pre><code class="language-javascript">let laptop = {
+    brand: "Dell",
+    model: "XPS 13",
+    printSpecs: () =&gt; {
+        console.log(`This is a ${this.brand} ${this.model}`);
+    }
+};
+
+laptop.printSpecs(); </code></pre><p>but it does not work as expected and it outputs as follows:</p><pre><code class="language-javascript">"This is a undefined undefined"</code></pre><p>How can it be fixed?</p>
+</div>
